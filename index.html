@@ -9,12 +9,90 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
-    <title>Hello, world!</title>
+    <title>Cecilia Zhu - Front End Web Developer</title>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand fixed-top nav-hide d-none">
+            <a class="navbar-brand" href="#">
+                <img src="https://via.placeholder.com/150/FFC38A" class="rounded-circle" alt="">
+            </a>
+            <div class="">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Cecilia Zhu
+                            <br>
+                            <small>Front End Web Developer</small>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+        <div class="container-fluid">
+            <div class="intro text-center pt-5">
+                <img src="https://via.placeholder.com/150/FFC38A" class="rounded-circle mb-2" alt="photo">
+                <h1>Cecilia Zhu</h1>
+                <h4 class="mb-4">Front End Web Developer</h4>
+                <p class="profile mx-auto">
+                    Detail-oriented and quality-driven Front End Developer, with great passion for building amazing websites / web applications
+                    and strong willingness to learn new skills, is eagerly looking for an opportunity to demonstrate knowledge
+                    and expertise in modern front-end technologies including HTML5, CSS3, JavaScript (ES6), Bootstrap, React,
+                    Redux, Ajax, JSON, Git, etc.
+                </p>
+            </div>
+            <div class="portfolio card-deck pt-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200/85A0B8" class="card-img-top" alt="project image">
+                    <div class="card-body">
+                        <h5 class="card-title">Brunch Studio</h5>
+                        <p class="card-text">The official website of a design studio named Brunch</p>
+                        <p class="card-text">Technologies used:</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200/85A0B8" class="card-img-top" alt="project image">
+                    <div class="card-body">
+                        <h5 class="card-title">allMall</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text">Technologies used:</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x200/85A0B8" class="card-img-top" alt="project image">
+                    <div class="card-body">
+                        <h5 class="card-title">RSVP</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                            card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text">Technologies used:</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer mt-auto py-3 d-flex align-items-center">
+        <div class="container">
+            <address class="contact mx-auto d-flex justify-content-around">
+                <a title="Email" href="mailto:cecilia.zhu04@gmail.com">
+                    <img src="img/_ionicons_svg_md-mail.svg" alt="Email logo">
+                </a>
+                <a title="LinkedIn" href="https://www.linkedin.com/in/cecilia-zhu-119831b2/">
+                    <img src="img/_ionicons_svg_logo-linkedin.svg" alt="LinkedIn logo">
+                </a>
+                <a title="GitHub" href="https://github.com/zxl86">
+                    <img src="img/_ionicons_svg_logo-github.svg" alt="GitHub logo">
+                </a>
+            </address>
+        </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -24,6 +102,7 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
