@@ -4,9 +4,7 @@ function bindScrollHandler() {
 
 function toggleNav() {
     const nav = document.querySelector('nav');
-    const intro = document.querySelector('.intro');
-    const profile = document.querySelector('.profile');
-    if (window.scrollY > (intro.clientHeight - profile.clientHeight)) {
+    if (window.scrollY > 210) {
         nav.classList.remove('d-none');
         nav.classList.replace('nav-hide', 'nav-show');
     } else {

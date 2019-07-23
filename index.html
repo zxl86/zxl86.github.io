@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Cecilia Zhu - Front End Web Developer</title>
 </head>
@@ -19,15 +19,14 @@
         <!-- Fixed navbar -->
         <nav class="navbar navbar-expand fixed-top nav-hide d-none">
             <a class="navbar-brand" href="#">
-                <img src="https://via.placeholder.com/150/FFC38A" class="rounded-circle" alt="">
+                <img src="img/photo.jpg" class="rounded-circle" alt="">
             </a>
-            <div class="">
+            <div>
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            Cecilia Zhu
-                            <br>
-                            <small>Front End Web Developer</small>
+                            <span class="name mr-3">Cecilia Zhu</span>
+                            <span class="d-block d-md-inline">Front End Web Developer</span>
                         </a>
                     </li>
                 </ul>
@@ -38,7 +37,10 @@
     <main role="main">
         <div class="container-fluid">
             <div class="intro text-center pt-5">
-                <img src="https://via.placeholder.com/150/FFC38A" class="rounded-circle mb-2" alt="photo">
+                <div class="banner position-absolute w-100"></div>
+                <div class="photo-container p-2 bg-white rounded-circle mx-auto mb-3">
+                    <img src="img/photo.jpg" class="rounded-circle w-100" alt="photo">
+                </div>
                 <h1>Cecilia Zhu</h1>
                 <h4 class="mb-4">Front End Web Developer</h4>
                 <p class="profile mx-auto">
@@ -49,29 +51,40 @@
                 </p>
             </div>
             <div class="portfolio card-deck pt-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/300x200/85A0B8" class="card-img-top" alt="project image">
-                    <div class="card-body">
-                        <h5 class="card-title">Brunch Studio</h5>
-                        <p class="card-text">The official website of a design studio named Brunch</p>
-                        <p class="card-text">Technologies used:</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://via.placeholder.com/300x200/85A0B8" class="card-img-top" alt="project image">
-                    <div class="card-body">
-                        <h5 class="card-title">allMall</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text">Technologies used:</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://via.placeholder.com/300x200/85A0B8" class="card-img-top" alt="project image">
+                <div class="card pt-2">
+                    <img src="img/rsvp.png" class="card-img-top" alt="project image">
                     <div class="card-body">
                         <h5 class="card-title">RSVP</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
-                            card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text">Technologies used:</p>
+                        <p class="card-text">
+                            A responsive RSVP web application, which enables users to keep track of attendants for scheduled meetings/activities
+                        </p>
+                        <p class="card-text font-italic">
+                            Technologies used: • HTML5, CSS3, JavaScript (ES6), gulp, localStorage, JSON and Git.
+                        </p>
+                    </div>
+                </div>
+                <div class="card pt-2">
+                    <img src="img/brunch-studio.png" class="card-img-top" alt="project image">
+                    <div class="card-body">
+                        <h5 class="card-title">Brunch Studio</h5>
+                        <p class="card-text">
+                            The official website of a design studio named Brunch based on the static designs and wireframes provided by the UI/UX designer
+                        </p>
+                        <p class="card-text font-italic">
+                            Technologies used: HTML5, CSS3, Bootstrap, JavaScript (ES6), localStorage, JSON, Ajax, Git, etc.
+                        </p>
+                    </div>
+                </div>
+                <div class="card pt-2">
+                    <img src="https://via.placeholder.com/300x200?text=Coming_Soon" class="card-img-top" alt="project image">
+                    <div class="card-body">
+                        <h5 class="card-title">allMall</h5>
+                        <p class="card-text">
+                            An items management single-page application for online shopping platform sellers, using the popular framework React
+                        </p>
+                        <p class="card-text font-italic">
+                            Technologies used: HTML5, CSS3, JavaScript (ES6), React, React Router, Git, npm, create-react-app, etc.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -80,7 +93,7 @@
 
     <footer class="footer mt-auto py-3 d-flex align-items-center">
         <div class="container">
-            <address class="contact mx-auto d-flex justify-content-around">
+            <address class="contact mx-auto my-0 d-flex justify-content-around">
                 <a title="Email" href="mailto:cecilia.zhu04@gmail.com">
                     <img src="img/_ionicons_svg_md-mail.svg" alt="Email logo">
                 </a>
