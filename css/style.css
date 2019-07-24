@@ -1,0 +1,91 @@
+/* color palette #D7FFF1 #8CD790 #77AF9C #285943 */
+
+body {
+    background-color: #FFEEE4;
+    color: #383A3F;
+}
+
+.navbar {
+    background-color: #77AF9C;
+    opacity: .95;
+    box-shadow: 0px 2px 2px 1px lightgrey;
+}
+
+.nav-show {
+    animation: .2s forwards show;
+}
+
+@keyframes show {
+    0% { transform: scaleY(0); transform-origin: top; }
+    50% { transform: scaleY(1.2); transform-origin: top; }
+    100% { transform: scaleY(1); transform-origin: top; }
+}
+
+.nav-hide {
+    animation: .2s forwards hide;
+}
+
+@keyframes hide {
+    from { transform: scaleY(1); transform-origin: top; }
+    to { transform: scaleY(0); transform-origin: top; }
+}
+
+.navbar-brand img{
+    width: 3rem;
+}
+
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .name {
+    font-size: 1.5rem;
+}
+
+.intro .banner {
+    height: 10rem;
+    top: 0;
+    left: 0;
+    background: #8CD790;
+    z-index: -1;
+}
+
+.intro .photo-container {
+    width: 10rem;
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+
+.intro h1, h4 {
+    color: #285943;
+}
+
+.intro p {
+    max-width: 40rem;
+}
+
+.portfolio .card {
+    border-top: .5rem solid #77AF9C;
+    transition: .2s;
+}
+
+.portfolio .card:hover {
+    border-color: #8CD790;
+}
+
+footer {
+    height: 8rem;
+}
+
+footer address {
+    width: 12rem;
+}
+
+footer img {
+    width: 40px;
+    opacity: .5;
+}
+
+footer img:hover {
+    opacity: .7;
+    transform: scale(1.3);
+}
