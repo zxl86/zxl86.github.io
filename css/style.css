@@ -80,12 +80,6 @@ footer address {
     width: 12rem;
 }
 
-footer img {
-    width: 40px;
-    opacity: .5;
-}
-
-footer img:hover {
-    opacity: .7;
+footer svg:hover {
     transform: scale(1.3);
 }
