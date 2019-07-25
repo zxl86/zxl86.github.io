@@ -8,7 +8,7 @@ body {
 .navbar {
     background-color: #77AF9C;
     opacity: .95;
-    box-shadow: 0px 2px 2px 1px lightgrey;
+    box-shadow: 2px 4px 10px rgba(0,0,0,.3);
 }
 
 .nav-show {
