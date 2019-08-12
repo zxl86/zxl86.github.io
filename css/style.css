@@ -5,6 +5,10 @@ body {
     color: #383A3F;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .navbar {
     background-color: #77AF9C;
     opacity: .95;
@@ -70,6 +74,9 @@ body {
 
 .portfolio .card:hover {
     border-color: #8CD790;
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition-duration: .5s;
 }
 
 footer {
